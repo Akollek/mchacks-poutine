@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                background-repeat: repeat;
+            }
+        </style>
+
+    </head>
+    <body>
+        <script>
+            var pics = [ 
+                "20141117-poutine-toronto.jpg",
+                "201473-poutine.jpg",
+                "Poutine-1.jpg",
+                "Poutine.JPG",
+                "alto.jpg",
+                "images.jpg",
+                "pizza.jpg",
+                "poutine-2.jpg",
+                "poutine-280x280.jpg",
+                "poutine-3.jpg",
+                "poutine.png",
+                "poutine1.jpg",
+                "quebec-poutine-chez-ashton-3.jpg"
+            ];
+            var pic = 'photos/'+pics[Math.floor(Math.random()*pics.length)];
+            document.body.style.backgroundImage = "url('"+pic+"')";
+
+            var OCANADAEH = new Audio('audio/ocanada.mp3');
+            OCANADAEH.play();
+        </script>
+    </body>
+</html>
+            
